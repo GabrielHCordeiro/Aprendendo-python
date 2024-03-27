@@ -1,0 +1,12 @@
+import csv
+
+import random
+
+arquivo = input("Informe o nome do arquivo CSV:")
+arquivo = open(arquivo)
+
+arquivo_csv = csv.reader(arquivo)
+
+palavras = random.choice (seq=arquivo)
+
+print(palavras)
